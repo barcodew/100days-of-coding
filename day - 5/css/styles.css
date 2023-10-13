@@ -1,0 +1,41 @@
+/* MADE WITH LOVE BY BARCODEW */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(43, 41, 54, 0.9);
+}
+
+div.calculator{
+    width: 300px;
+    height: 450px;
+    background-color: gray;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input#display{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: #B3C2AB;
+    border-color: black;
+    border-width: 5px;
+}
+
+div.buttons{
+    background-color: rgb(167, 163, 163);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 10px;
+}
