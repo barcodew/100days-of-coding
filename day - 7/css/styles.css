@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to bottom, #000000, #444444);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 48px;
+}
+#ngetik-sendiri::after {
+  content: "... ";
+  animation: ellipsis 1s infinite steps(4, end);
+}
+
+@keyframes ellipsis {
+  2% {
+    content: "... ";
+  }
+  33% {
+    content: ".. ";
+  }
+  66% {
+    content: ". ";
+  }
+}
