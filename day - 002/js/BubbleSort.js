@@ -13,7 +13,7 @@ function bubbleSort(list) {
         swapped = true;
       }
     }
-
+ 
     if (!swapped) {
       break;
     }

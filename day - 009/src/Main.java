@@ -10,7 +10,7 @@ public class Main {
 
             for (int i = 0; i < n; i++) {
                 System.out.println("INFORMATIKA");
-            }
+            } 
 
             System.out.println("Lanjut bang? (y/n) :");
             String ulang = input.next();

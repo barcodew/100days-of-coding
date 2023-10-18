@@ -11,7 +11,7 @@ function greedyCoinChange(coins, amount) {
         amount -= coin;
         
         // Menambahkan koin ke daftar perubahan
-        if (change[coin]) {
+        if (change[coin]) { 
           change[coin]++;
         } else {
           change[coin] = 1;
