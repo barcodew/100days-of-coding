@@ -8,7 +8,7 @@ public class main {
     static void listMenu() {
         System.out.println("--------------------------------");
         System.out.println("-- Made With Love By Barcodew --");
-        System.out.println("--------------------------------");
+        System.out.println("--------------------------------"); 
         System.out.println("1. Create");
         System.out.println("2. Read");
         System.out.println("3. Update");
