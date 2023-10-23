@@ -1,4 +1,3 @@
-
 import java.util.Vector;
 
 public class Main {
@@ -22,14 +21,13 @@ public class Main {
         double sum = 0;
 
         for (int i = 0; i < dataVector.size(); i++) {
-            double tempData = (double) dataVector.get(i);
-            if (tempData < min) {
-                min = tempData;
+            if (dataVector.get(i) < min) {
+                min = dataVector.get(i);
             }
-            if (tempData > max) {
-                max = tempData;
+            if (dataVector.get(i) > max) {
+                max = dataVector.get(i);
             }
-            sum += tempData;
+            sum += dataVector.get(i);
 
         }
 
