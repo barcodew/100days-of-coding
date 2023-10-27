@@ -22,7 +22,7 @@ public class Main {
         System.out.println("---------------------------");
         System.out.println("1. ES TEH PANAS : Rp 10.000");
         System.out.println("2. KOPI HITAM \t: Rp 15.000 ");
-        System.out.println("1. KOPI SUSU \t: Rp 20.000 ");
+        System.out.println("3. KOPI SUSU \t: Rp 20.000 ");
         System.out.println("---------------------------");
     }
 
