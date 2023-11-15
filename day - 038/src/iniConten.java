@@ -2,7 +2,7 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-public class iniKonten extends JPanel {
+public class iniConten extends JPanel {
 
     int koordinatX = 100;
     int koordinatY = 100;
@@ -16,7 +16,6 @@ public class iniKonten extends JPanel {
         try {
             forSleep.sleep(slp);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
