@@ -50,7 +50,7 @@ public class CaraMembuatTextField extends JFrame {
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException ex) {
             ex.printStackTrace();
             return;
-        }
+        } 
         new CaraMembuatTextField();
     }
 }
